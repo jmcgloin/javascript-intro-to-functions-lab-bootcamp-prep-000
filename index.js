@@ -1,0 +1,1 @@
+let shout = (exclaim) => { exclaim.toU

@@ -1,1 +1,1 @@
-let shout = (exclaim) => { exclaim.toU
+let shout = (exclaim) => { exclaim.toUpperCase; }

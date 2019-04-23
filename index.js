@@ -5,9 +5,9 @@ let logWhisper = (shh) => console.log(whisper(shh));
 let sayHiToGrandma = (hiGrammy) => {
   if ( hiGrammy === "I love you, Grandma." ) {
     return "I love you, too."
-  } else if ( hiGrammy.isLowerCase() ) {
+  } else if ( hiGrammy === hiGrammy.toLowerCase() ) {
     return "I can't hear you!";
-  } else if ( hiGrammy.isUpperCase() ) {
+  } else if ( hiGrammy === hiGrammy.toUpperCase() ) {
     return "YES INDEED!";
   } 
 }

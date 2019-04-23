@@ -10,4 +10,5 @@ let sayHiToGrandma = (hiGrammy) => {
   } else if ( hiGrammy === hiGrammy.toUpperCase() ) {
     return "YES INDEED!";
   } 
+  /* Should really filter out non alphabetic characters, but this works for the task at hand*/
 }
